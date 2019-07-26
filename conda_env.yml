@@ -1,7 +1,8 @@
-name: gridpaper
+name: grid_origin
 channels:
   - brian-team
   - defaults
+  - https://repo.anaconda.com/pkgs/free/linux-64/
 dependencies:
   - brian2=2.0b4=np19py27_0
   - anaconda=custom=py27h4a00acb_0
@@ -69,5 +70,4 @@ dependencies:
   - wheel=0.32.3=py27_0
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
-prefix: /home/dalbis/anaconda2/envs/gridpaper
 

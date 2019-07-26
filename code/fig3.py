@@ -41,6 +41,6 @@ pp.custom_axes()
 pl.yticks([-0.07,0,0.07])
 pl.xticks(np.array([0,0.2,0.4,0.6])*100)
 
-pl.savefig(figures_path+'/fig3.eps',bbox_inches='tight',dpi=300)
 pl.xlabel('Input receptive field distance')
 pl.ylabel('Input correlation C')
+pl.savefig(figures_path+'/fig3.eps',bbox_inches='tight',dpi=300)

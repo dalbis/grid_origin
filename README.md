@@ -24,6 +24,9 @@ This can be done with the command:
 
 conda env create -f conda_env.yml
 
+This will create a new conda environment named 'grid_origin'. Note that this environment may contain more packages
+then actually needed (i.e., it provides more than the minimal set of required dependencies).
+
 Note that you need approximately XXX GB of free space on disk to store all the required simulation results.
 
 
